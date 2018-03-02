@@ -1,0 +1,73 @@
+/*
+ * Theme Name: Trung Kien Themes
+ * Description: Theme riêng tư dùng để nộp đề tài môn Chuyên đề web 
+ * Theme URI: http://wpdesigners.info
+ * Version: 1.0
+ * Author: Trung Kiên
+ * Author URI: http://wpdesigners.info
+ * Tags: basic, auto sell
+ * Textdomain: trungkien
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans|Montserrat');
+#top-menu li {
+	list-style-image: url('less/images/check.png');
+	float: right;
+	margin-left: 40px;
+}
+#top-menu li a {
+	color: red;
+}
+#social li {
+	list-style: none;
+	float: right;
+}
+#social li a {
+	color: red;
+}
+#header_search {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	overflow: hidden;
+}
+#social {
+	display: inline-flex;
+    float: right;
+    margin-top: 12px;
+}
+#header_main #wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+#header_main {
+	background: #e11428;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 81px;
+}
+#site-name img {
+	border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#primary-menu{
+	height: 81px;
+}
+#primary-menu .navbar-nav li a{
+    display: block;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: serif;
+    text-decoration: none;
+    height: 81px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+#primary-menu .navbar-nav li a:hover{
+	border-bottom: 5px solid #fff
+}
+#primary-menu .navbar-nav li .active {
+	border-bottom: 5px solid #fff
+}
